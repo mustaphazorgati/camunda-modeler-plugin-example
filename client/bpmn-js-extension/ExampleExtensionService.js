@@ -7,20 +7,17 @@
  * https://github.com/bpmn-io/bpmn-js-examples
  */
 export default function ExampleExtensionService(eventBus) {
-
-  eventBus.on('shape.added', function(context) {
+  eventBus.on('shape.added', function (context) {
     var element = context.element;
 
     console.log('🎉 A shape was added!', element);
   });
 
-  eventBus.on('connection.added', function(context) {
+  eventBus.on('connection.added', function (context) {
     var element = context.element;
 
     console.log('🎊 A connection was added!', element);
   });
 }
 
-ExampleExtensionService.$inject = [
-  'eventBus'
-];
+ExampleExtensionService.$inject = ['eventBus'];
