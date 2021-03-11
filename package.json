@@ -26,5 +26,10 @@
     "prettier": "2.2.1",
     "webpack": "^4.39.2",
     "webpack-cli": "^3.3.7"
+  },
+  "dependencies": {
+    "bpmn-js": "^8.2.1",
+    "dmn-js": "^10.1.0-alpha.2",
+    "tiny-svg": "^2.2.2"
   }
 }
