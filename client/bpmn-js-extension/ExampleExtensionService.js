@@ -10,13 +10,13 @@ export default function ExampleExtensionService(eventBus) {
   eventBus.on('shape.added', function (context) {
     var element = context.element;
 
-    console.log('🎉 A shape was added!', element);
+    console.log('A shape was added!', element);
   });
 
   eventBus.on('connection.added', function (context) {
     var element = context.element;
 
-    console.log('🎊 A connection was added!', element);
+    console.log('A connection was added!', element);
   });
 }
 

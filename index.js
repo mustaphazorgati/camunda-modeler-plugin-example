@@ -1,6 +1,6 @@
 'use strict';
 
 module.exports = {
-  name: 'Example Plug-in',
+  name: 'Human Task Drilldown Plug-in',
   script: './dist/client.js'
 };
